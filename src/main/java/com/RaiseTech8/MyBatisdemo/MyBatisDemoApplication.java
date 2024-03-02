@@ -1,4 +1,4 @@
-package com.RaiseTech8.MyBatisdemo;
+package com.raisetech8.mybatisdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MyBatisDemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MyBatisDemoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MyBatisDemoApplication.class, args);
+    }
 
 }

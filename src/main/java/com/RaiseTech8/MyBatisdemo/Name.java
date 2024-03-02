@@ -1,4 +1,4 @@
-package com.RaiseTech8.MyBatisdemo;
+package com.raisetech8.mybatisdemo;
 
 public class Name {
     private int id;

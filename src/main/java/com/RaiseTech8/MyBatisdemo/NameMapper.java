@@ -1,4 +1,4 @@
-package com.RaiseTech8.MyBatisdemo;
+package com.raisetech8.mybatisdemo;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
