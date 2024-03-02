@@ -1,4 +1,4 @@
-package com.raisetech8.mybatisdemo;
+package com.RaiseTech8.MyBatisdemo;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
