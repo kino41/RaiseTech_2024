@@ -1,11 +1,11 @@
 package com.raisetech8.mybatisdemo;
 
-public class Name {
+public class NationalFlower {
     private int id;
     private String name;
     private String country;
 
-    public Name(int id, String name, String country) {
+    public NationalFlower(int id, String name, String country) {
         this.id = id;
         this.name = name;
         this.country = country;

@@ -8,5 +8,5 @@ import java.util.List;
 @Mapper
 public interface NameMapper {
     @Select("SELECT * FROM national_flower")
-    List<Name> findAll();
+    List<NationalFlower> findAll();
 }
