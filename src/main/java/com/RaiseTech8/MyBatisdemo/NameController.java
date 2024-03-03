@@ -13,7 +13,7 @@ public class NameController {
         this.nameMapper = nameMapper;
     }
 
-    @GetMapping("/national_flower")
+    @GetMapping("/national-flower")
     public List<Name> national_flower() {
         List<Name> national_flower = nameMapper.findAll();
         return national_flower;
