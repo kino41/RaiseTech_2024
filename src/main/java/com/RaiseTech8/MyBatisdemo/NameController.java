@@ -14,8 +14,8 @@ public class NameController {
     }
 
     @GetMapping("/national-flowers")
-    public List<Name> national_flower() {
-        List<Name> national_flower = nameMapper.findAll();
-        return national_flower;
+    public List<Name> nationalFlower() {
+        List<Name> nationalFlower = nameMapper.findAll();
+        return nationalFlower;
     }
 }
