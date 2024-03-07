@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class NameController {
-    private NameMapper nameMapper;
+public class NationalFlowerController {
+    private NationalFlowerMapper nameMapper;
 
-    public NameController(NameMapper nameMapper) {
+    public NationalFlowerController(NationalFlowerMapper nameMapper) {
         this.nameMapper = nameMapper;
     }
 

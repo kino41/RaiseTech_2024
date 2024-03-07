@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 @Mapper
-public interface NameMapper {
+public interface NationalFlowerMapper {
     @Select("SELECT * FROM national_flower")
     List<NationalFlower> findAll();
 }
