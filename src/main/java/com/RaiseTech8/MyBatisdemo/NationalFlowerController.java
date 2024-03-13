@@ -2,6 +2,7 @@ package com.raisetech8.mybatisdemo;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -15,12 +16,12 @@ public class NationalFlowerController {
     }
 
     @GetMapping("/national-flowers")
-    public List<NationalFlower> get() {
-        return nationalFlowerService.findAll();
+    public List<NationalFlower> findByName(@RequestParam String name) {
+        return nationalFlowerService.findByName(name);
     }
 
-    @GetMapping("/national-flowers/{name}")
-    public NationalFlower findNationalFlower(@PathVariable("name") String name) {
-        return nationalFlowerService.findByName(name);
+    @GetMapping("/national-flowers/{id}")
+    public NationalFlower findById(@PathVariable("id") int id) {
+        return nationalFlowerService.findById(id);
     }
 }

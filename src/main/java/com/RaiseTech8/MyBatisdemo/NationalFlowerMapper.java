@@ -8,9 +8,10 @@ import java.util.Optional;
 
 @Mapper
 public interface NationalFlowerMapper {
-    @Select("SELECT * FROM national_flower")
-    List<NationalFlower> getAll();
 
     @Select("SELECT * FROM national_flower WHERE name = #{name}")
-    Optional<NationalFlower> findByName(String name);
+    List<NationalFlower> findByName(String name);
+
+    @Select("SELECT * FROM national_flower WHERE id = #{id}")
+    Optional<NationalFlower> findById(int id);
 }
